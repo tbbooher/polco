@@ -22,20 +22,20 @@ can_send = !@p.blank?
   </div>
   <%- end -%>
 
-  <% if @flickr %>  
+<!--  <%# if @flickr %>  
   <div class="activity_box">
     <h2>Latest Flickr Pictures</h2>
-    <% @flickr.each do |flickr|%>
+    <%# @flickr.each do |flickr|%>
     <div class="flickr left">
       <div>
-        <a href="http://www.flickr.com/photos/<%= flickr.owner_id %>/<%= flickr.id %>" target="_blank">
-          <%= image_tag flickr.url('t'), :alt => 'FlickrHolder', :class => 'flickr_image' %>
+        <a href="http://www.flickr.com/photos/<%#= flickr.owner_id %>/<%#= flickr.id %>" target="_blank">
+          <%#= image_tag flickr.url('t'), :alt => 'FlickrHolder', :class => 'flickr_image' %>
         </a>
       </div>
     </div>
-    <%end%>
+    <%#end%>
   </div>
-  <% end %>
+  <%# end %>-->
 
 
 

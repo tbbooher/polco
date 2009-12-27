@@ -1,14 +1,17 @@
 # == Schema Information
-# Schema version: 2008100601002
+# Schema version: 20091006171847
 #
 # Table name: photos
 #
-#  id         :integer(4)    not null, primary key
-#  caption    :string(1000)  
-#  created_at :datetime      
-#  updated_at :datetime      
-#  profile_id :integer(4)    
-#  image      :string(255)   
+#  id                 :integer(4)    not null, primary key
+#  caption            :string(1000)  
+#  created_at         :datetime      
+#  updated_at         :datetime      
+#  profile_id         :integer(4)    
+#  image_file_name    :string(255)   
+#  image_content_type :string(255)   
+#  image_file_size    :integer(4)    
+#  image_updated_at   :datetime      
 #
 
 

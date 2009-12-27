@@ -1,14 +1,14 @@
 
 development:
   adapter: mysql
-  database: lovdbyless_development
+  database: polco_development
   username: root
-  password:
+  password: polco111
   encoding: utf8
 
 test:
   adapter: mysql
-  database: lovdbyless_test
+  database: polco_test
   username: root
-  password:
+  password: polco111
   encoding: utf8

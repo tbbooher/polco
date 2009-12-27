@@ -1,29 +1,32 @@
 # == Schema Information
-# Schema version: 2008100601002
+# Schema version: 20091006171847
 #
 # Table name: profiles
 #
-#  id               :integer(4)    not null, primary key
-#  user_id          :integer(4)    
-#  first_name       :string(255)   
-#  last_name        :string(255)   
-#  website          :string(255)   
-#  blog             :string(255)   
-#  flickr           :string(255)   
-#  about_me         :text          
-#  aim_name         :string(255)   
-#  gtalk_name       :string(255)   
-#  ichat_name       :string(255)   
-#  icon             :string(255)   
-#  location         :string(255)   
-#  created_at       :datetime      
-#  updated_at       :datetime      
-#  email            :string(255)   
-#  is_active        :boolean(1)    
-#  youtube_username :string(255)   
-#  flickr_username  :string(255)   
-#  last_activity_at :datetime      
-#  time_zone        :string(255)   default("UTC")
+#  id                :integer(4)    not null, primary key
+#  user_id           :integer(4)    
+#  first_name        :string(255)   
+#  last_name         :string(255)   
+#  website           :string(255)   
+#  blog              :string(255)   
+#  flickr            :string(255)   
+#  about_me          :text          
+#  aim_name          :string(255)   
+#  gtalk_name        :string(255)   
+#  ichat_name        :string(255)   
+#  location          :string(255)   
+#  created_at        :datetime      
+#  updated_at        :datetime      
+#  email             :string(255)   
+#  is_active         :boolean(1)    
+#  youtube_username  :string(255)   
+#  flickr_username   :string(255)   
+#  last_activity_at  :datetime      
+#  time_zone         :string(255)   default("UTC")
+#  icon_file_name    :string(255)   
+#  icon_content_type :string(255)   
+#  icon_file_size    :integer(4)    
+#  icon_updated_at   :datetime      
 #
 
 class Profile < ActiveRecord::Base
